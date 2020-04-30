@@ -12,3 +12,10 @@
 .high-score:hover {
   transform: scale(1.025);
 }
+
+@media only screen and (max-width: 768px) {
+  /* For responsive */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
