@@ -80,3 +80,10 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  /* For responsive */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
