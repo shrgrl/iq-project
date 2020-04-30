@@ -50,3 +50,10 @@
   justify-content: center;
   font-size: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For responsive */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
