@@ -467,7 +467,3 @@ body {
   background: #F55064;
   border-radius: 50%;
 }
-
-@media all and (max-width: 480px) {
-    site-banner { width: auto; height: auto;}
-}
