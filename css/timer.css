@@ -50,7 +50,3 @@
   justify-content: center;
   font-size: 30px;
 }
-
-@media all and (max-width: 480px) {
-    site-banner { width: auto; height: auto;}
-}
