@@ -12,7 +12,3 @@
 .high-score:hover {
   transform: scale(1.025);
 }
-
-@media all and (max-width: 480px) {
-    site-banner { width: auto; height: auto;}
-}
