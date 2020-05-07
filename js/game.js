@@ -15,7 +15,7 @@ let availableQuestions = [];
 
 let questions = [];
 
-fetch("hhttps://my-data-api.herokuapp.com/?amount=10&category=9&difficulty=easy&type=multiple")
+fetch("https://my-data-api.herokuapp.com/?amount=10&category=9&difficulty=easy&type=multiple")
   .then(res => {
     return res.json();
   })
